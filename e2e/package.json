@@ -1,0 +1,26 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "dumb-search": "npx ts-node src/dumb-search.ts",
+    "tests": "yarn run start-devnet; npx ts-node src/startTests.ts",
+    "start-devnet": "sh ./scripts/setup.sh",
+    "stop-devnet": "sh ./scripts/teardown.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "@types/uuid": "^9.0.0",
+    "eslint": "^8.29.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "uuid": "^9.0.0"
+  }
+}

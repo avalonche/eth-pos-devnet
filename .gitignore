@@ -7,3 +7,5 @@ execution/geth
 execution/geth.ipc
 .idea/
 .env
+node_modules/
+output/
