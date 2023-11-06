@@ -18,7 +18,7 @@ First, install Docker.
 Then, run the devnet launch script:
 
 ```
-git clone https://github.com/rauljordan/eth-pos-devnet && cd eth-pos-devnet
+git clone https://github.com/avalonche/eth-pos-devnet && cd eth-pos-devnet
 sh start-local-net.sh
 ```
 
